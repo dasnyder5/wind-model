@@ -14,11 +14,11 @@ The output of this process is saved under the IRoM Lab Google Drive folder:
 
 Flowdrone/WindModelData
 
-To get the aggregated raw data (files), download the folders "data_pent/" and "/data_hex/"
+To get the aggregated raw data (files), download the folders "data_pent/" and "data_hex/"
 (note, this will take up approximately 4GB of hard drive space and is NOT necessary if you just need to access the training procedure and/or learned models). 
 
 ## Instructions 2: Aggregated raw data (files) --> Aggregated Raw Data (filtered, etc)
-This procedure is undertaken in FullDataProcessing.ipynb. Requires the notebook to be in the same directory as \data\_pent and \data\_hex folders.
+This procedure is undertaken in FullDataProcessing.ipynb. Requires the notebook to be in the same directory as data_pent/ and data_hex/ folders.
 This procedure outputs aggregated training data in a folder data_agg/, which contains subfolders corresponding to training, testing, and validation data. (TODO: add a script to automatically construct the directories, otherwise might result in a permissions/access issue. Just need to make ~9-12 folders. 
 
 We note again that this procedure can be skipped and the data_agg/. files downloaded directly from the Google Drive in the same folder as above. 
