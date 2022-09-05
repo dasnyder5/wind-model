@@ -18,4 +18,4 @@ To get the aggregated raw data (files), download the folders "\data_pent" and "d
 (note, this will take up approximately 4GB of hard drive space). 
 
 # Instructions 2: Aggregated raw data (files) --> Aggregated Raw Data (filtered, etc)
-This procedure is undertaken in DataProcessingBlocks.ipynb. Requires the notebook to be in the same directory as data_pent and data_hex folders. 
+This procedure is undertaken in FullDataProcessing.ipynb. Requires the notebook to be in the same directory as data\_pent and data\_hex folders. 

@@ -1,0 +1,8 @@
+deprecated/
+SummaryStats/*.zip
+.ipynb*
+data_agg/
+data_hex/
+data_pent/
+SummaryStats/*Large.csv
+
