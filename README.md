@@ -3,11 +3,11 @@ Sub-task to learn an effective wind model for Nate's wind data for the flowdrone
 
 # Data Processing and Training Pipeline: 
 
-Raw data 
-   --> Aggregated raw data (files) 
-      --> Aggregated raw data (filtered, etc)
-         --> Learned prediction model(s) 
-
+Raw data  
+   --> Aggregated raw data (files)  
+      --> Aggregated raw data (filtered, etc)  
+         --> Learned prediction model(s)   
+  
 ## Instructions 1: Raw Data --> Aggregated raw data (files)
 This process is done manually; it probably could be automated by a shell script (TODO if deemed important). 
 The output of this process is saved under the IRoM Lab Google Drive folder: 
@@ -23,14 +23,14 @@ This procedure outputs aggregated training data in a folder data_agg/, which con
 
 We note again that this procedure can be skipped and the data_agg/. files downloaded directly from the Google Drive in the same folder as above. 
 
-AS BEFORE with data_hex/ and data_pent, the  data_agg/ directory should be in the same directory as the FullDataProcessing.ipynb and NN_Regression*.ipynb notebooks.
+AS BEFORE with data_hex/ and data_pent/, the  data_agg/ directory should be in the same directory as the FullDataProcessing.ipynb and NN_Regression*.ipynb notebooks.
 
 ## Instructions 3: Aggregated Raw Data (filtered, etc.) --> Learned Prediction Models
 This procedure is undertaken in NN_Regression*.ipynb. You will need to make a directory with the following structure (TODO: put this in a shell script):
 
-SavedModels/
---- Angle/
---- Velocity/
+SavedModels/  
+--- Angle/  
+--- Velocity/   
 
 This will then construct the necessary models, aggregating best models over 5 random seeds for each setting by default. 
 Alternatively (as you can probably guess!), the models can be directly downloaded from the Google Drive folder. The full output is under SavedModels/. in the Google Drive, and the ''best'' models are under best_models/. in the Google Drive. 
